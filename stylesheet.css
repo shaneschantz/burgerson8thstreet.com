@@ -1,6 +1,11 @@
 Selector{
-  property: Value;
+  property: bestValue, nextBestValue;
 }
-body{
-  font-family: Helvetica;
+h1{
+  font-family: Helvetica, sans-serif;
+}
+
+p{
+  font-family: futura, Helvetica;
+  font-weight: lighter;
 }
