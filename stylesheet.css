@@ -11,7 +11,7 @@ p{
   font-size: .75em;
 }
 
-p:first-child{
+#quote{
   font-family: Helvetica;
   font-size: 1.5em;
 }
