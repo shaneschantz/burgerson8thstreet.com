@@ -27,15 +27,11 @@
     body{
       font-style: helvetica, sans-serif;
     }
-
-    h1{
-      font-size: 1em;
+    @media (max-width: @screen-xs){
+      body{font-size: .5em;}
     }
-    p{
-      font-size: 1em;
-    }
-    h3{
-      font-size: 1em;
+    @media (max-width: @screen-sm){
+      body{font-size: .75em;}
     }
   </style>
 </head>
