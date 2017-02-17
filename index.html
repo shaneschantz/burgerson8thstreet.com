@@ -27,23 +27,26 @@
 
     body{
       font-style: helvetica, sans-serif;
-      font-size: default;
+      font-size: 100%;
       background-color: #eee;
       height:100%;
       padding-bottom:60px;
     }
-    /*@media (max-width: @screen-xs){
-      body{font-size: .5em;}
-      .jumbotron h1{font-size: .5em;}
-      .jumbotron h3{font-size: .5em;}
-      .jumbotron p{font-size: .5em;}
+    @media (max-width: 500px){
+      body{font-size: 50%;}
     }
-    @media (max-width: @screen-sm){
-      body{font-size: .75em;}
-      .jumbotron h1{font-size: .75em;}
-      .jumbotron h3{font-size: .75em;}
-      .jumbotron p{font-size: .75em;}
-    }*/
+    @media (max-width: 800px){
+      body{font-size: 75%;}
+    }
+    @media (max-width: 1200px){
+      body{font-size: 90%}
+    }
+    @media(max-width: 2000px){
+      body{font-size: 130%}
+    }
+    @media(max-width: 4000px){
+      body{font-size: 210%}
+    }
 
   </style>
 </head>
