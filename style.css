@@ -1,0 +1,32 @@
+
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+  p{
+    font-size: medium;
+  }
+  h1{
+    font-size: medium;
+  }
+  h5{
+    font-size: medium;
+  }
+
+
+  @media (max-width: 500px){
+    body{font-size: 50%;}
+  }
+  @media (max-width: 800px){
+    body{font-size: 75%;}
+  }
+  @media (max-width: 1200px){
+    body{font-size: 90%}
+  }
+  @media(max-width: 2000px){
+    body{font-size: 130%}
+  }
+  @media(max-width: 4000px){
+    body{font-size: 210%}
+  }
