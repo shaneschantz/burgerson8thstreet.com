@@ -26,6 +26,10 @@
     letter-spacing: 1px;
   }
 
+  .get{
+    font-size: 200px;
+  }
+
 
   @media (max-width: 500px){
     body{font-size: 50%;}
