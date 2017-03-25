@@ -14,10 +14,23 @@
     font-size: medium;
   }
 
+  .navCover{
+    margin-bottom: 0;
+  }
+
   .aboutR{
     float: right;
     text-align: right;
     margin: 2em;
+  }
+
+  .navbar{
+    border: none;
+  }
+
+  .cover{
+    background-image: url("images/Cover.png");
+    background-size: cover;
   }
 
   .title-p{
@@ -28,6 +41,10 @@
 
   .get{
     font-size: 200px;
+  }
+
+  .frontJB{
+    background-color: #8A8A8A;
   }
 
 
