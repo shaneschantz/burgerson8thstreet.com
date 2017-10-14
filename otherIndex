@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Burgers on 8th Street</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="yze2H1_GrDTLvhbv3Rk07Mvk39M-b9L-cINs84tPx58" />
+  <meta name="msvalidate.01" content="8B9D16EB5093D8334FA77EC2A3EF11E8" />
+  <link href="style.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+    footer {
+      position:absolute;
+      bottom:0;
+      width:100%;
+    }
+
+    body{
+      font-style: helvetica, sans-serif;
+      background-color: #eee;
+      height:100%;
+      padding-bottom:60px;
+      background-image: url("images/Cover.png");
+      background-size: cover;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-static-top" style="margin-bottom: 0">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Burgers on 8th Street</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="https://www.instagram.com/burgerson8thstreet/" target="_blank"><span class="fa fa-instagram"></span> IG</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+<footer class="container-fluid text-center">
+  <h5>Copyright © Burgers on 8th Street. All Rights Reserved.</h5>
+</footer>
+
+</body>
+</html>
